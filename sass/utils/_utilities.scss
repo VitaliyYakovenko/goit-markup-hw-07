@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $main-text-color;
+    background-color: $main-bg-color;
+    letter-spacing: 0.03em;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    /* outline: 2px solid red; */
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .footer-flex {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .main__titel--hidden {
+    visibility: hidden;
+    line-height: 0;
+  }

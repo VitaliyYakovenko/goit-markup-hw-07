@@ -1,0 +1,27 @@
+.logo {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 93px;
+  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: $style-color;
+
+    &--black {
+        color:$logo-sp-head-color;
+    }
+}
+
+.page-footer__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 0;
+
+    &--white {
+    color: $footer-sp-logo-color;
+  }
+  }

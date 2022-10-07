@@ -1,0 +1,14 @@
+.client {
+    text-align: center;
+ 
+  
+    &__titel {
+    margin-bottom: 50px;
+  
+    color: $titel-link-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+
+}
