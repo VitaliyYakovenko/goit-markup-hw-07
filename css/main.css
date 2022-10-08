@@ -251,6 +251,7 @@ ul {
 
 .contact {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 .contact > .contact__item:not(:last-child) {
@@ -556,7 +557,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .address__link:hover, .address__link:focus {
-  color: var(--address-map-color);
+  color: #FFFFFF;
 }
 
 .page-footer__networks-set {
@@ -789,11 +790,11 @@ ul {
 .checkbox__label {
   display: flex;
   align-items: center;
-  line-height: 1.71;
-  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.checkbkox__icon {
+.checkbox__icon {
   margin-right: 7px;
   border: 2px solid black;
   border-radius: 4px;
@@ -809,7 +810,7 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.checkbox__inp:checked + .checkbkox__icon {
+.checkbox__inp:checked + .checkbox__icon {
   background-color: #2196F3;
   border-color: #2196F3;
 }
