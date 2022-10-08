@@ -189,7 +189,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 
-    &:checked+.checkbox__icon {
+    &:checked+&__icon {
         background-color: $style-color;
         border-color: $style-color;
       }
